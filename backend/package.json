@@ -1,0 +1,35 @@
+{
+  "name": "control-proyectos-backend",
+  "version": "1.0.0",
+  "description": "Backend para Control de Proyectos - Gestión de gastos para empresa de diseño industrial",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'No build step required for Node.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "control",
+    "proyectos",
+    "gastos",
+    "industrial",
+    "render",
+    "express"
+  ],
+  "author": "Pablo Araya",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "axios": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
